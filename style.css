@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    border:none;
+    outline: none;
+}
+
+body{
+    background-color: #9873fe;
+}
+
+img {
+    width: 50%;
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 25em;
+    background-color: #ffffff;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    padding: 2em;
+    border-radius: 0.8em;
+}
+
+.app-details {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.app-icon{
+    width: 9.37em;
+    margin-bottom: 3em;
+}
+
+.app-title {
+    font-size: 1.6em;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+
+}
+
+#amount{
+    background-color: rgb(184, 143, 231);
+    border-radius: 10px;
+    font-size: 1em;
+}

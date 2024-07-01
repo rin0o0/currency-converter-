@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "wrapper">
+        <div class="app-details">
+            <img class = "app-icon" src="exchange.svg" alt="">
+            <h1 class="app-title">Currency Converter</h1>
+        </div>
+
+        <label for="amount">Amount:</label>
+        <input type="text" id="amount"> 
+
+        <div class="dropdowns">
+            <select id="from-currency-select"></select>
+            <select id="to-currency-select"></select>
+        </div>
+
+        <button id="convert-button" style="background-color: aqua;" >Convert</button>
+        <p id="result" style="background-color: aqua;"> </p>
+    </div>
+
+    <!-- <script src="currencyCodes.js"></script> -->
+    <script src="script.js"></script>
+
+</body>
+</html>     
